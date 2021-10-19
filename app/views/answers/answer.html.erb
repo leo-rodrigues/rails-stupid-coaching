@@ -1,0 +1,11 @@
+<div class="card pt-2">
+  <p>Me: <%= params[:question] %></p>
+</div>
+
+<div class="card bg-warning pt-2 mt-2">
+  <p>Coach: <%= @answer %></p>
+</div>
+
+<div class="pt-4">
+  <%= link_to "Ask a new question", ask_path %>
+</div>
